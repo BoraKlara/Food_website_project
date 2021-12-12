@@ -8,5 +8,24 @@ body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
+  color: #555;
   background-color: antiquewhite;
+}
+
+h1 {
+  position: relative;
+}
+
+.ellipse {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 543px;
+  top: 4236px;
+
+  background: linear-gradient(
+    180deg,
+    #f5cb55 0%,
+    rgba(251, 219, 113, 0.76) 100%
+  );
 }
